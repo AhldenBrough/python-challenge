@@ -21,5 +21,7 @@ with open(csvpath, encoding='UTF-8') as csvfile:
     next(csvreader, None)
 
     #step through month by month (row by row)
-    for month in csvreader:
+    for count, month in enumerate(csvreader, start=1):
         total += int(month[1])
+
+print(count)
