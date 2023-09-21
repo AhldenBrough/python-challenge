@@ -39,7 +39,7 @@ with open(csvpath, encoding='UTF-8') as csvfile:
         total += curr_value
 
         #calculate the change in profit/loss from prev month to current
-        change = prev_value - curr_value
+        change = curr_value - prev_value
 
         print("-------------")
         print(f"current month is {curr_month}")
@@ -52,7 +52,7 @@ with open(csvpath, encoding='UTF-8') as csvfile:
         print("-------------")
 
         #if the change is positive and is greater than the previously recorded greatest increase
-        if (prev_value < curr_value) and (change < greatest_increase):
+        if (prev_value < curr_value) and (change > greatest_increase):
             
             greatest_increase = change
             
@@ -60,7 +60,7 @@ with open(csvpath, encoding='UTF-8') as csvfile:
             print(f"found new greatest increase at {curr_month}")
 
         #if the change is negative and is greater than the previously recorded greatest decrease
-        elif (prev_value > curr_value) and (change > greatest_decrease):
+        elif (prev_value > curr_value) and (change < greatest_decrease):
             
             greatest_decrease = change
             
@@ -77,8 +77,8 @@ print(count)
 print("---------")
 print(total)
 print("---------")
-print(greatest_decrease * -1)
+print(greatest_decrease)
 print(dec_month)
 print("---------")
-print(greatest_increase * -1)
+print(greatest_increase)
 print(inc_month)
