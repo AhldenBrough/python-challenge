@@ -5,7 +5,7 @@
 <br>
 Given a cleaned csv of month to month profit/loss data, this program will calculate:
 <br>
-+The total number of months included in the dataset
++ The total number of months included in the dataset
 <br>
 +The net total amount of "Profit/Losses" over the entire period
 <br>
