@@ -1,5 +1,5 @@
 # python-challenge
-<br />
+
 ## PyBank
 
 Given a cleaned csv of month to month profit/loss data, this program will calculate:
