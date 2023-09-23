@@ -1,7 +1,6 @@
 # python-challenge
 
-## PyBank
-
+## PyBank <br />
 Given a cleaned csv of month to month profit/loss data, this program will calculate:
 * The total number of months included in the dataset
 * The net total amount of "Profit/Losses" over the entire period
