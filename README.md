@@ -12,7 +12,7 @@ Given a cleaned csv of month to month profit/loss data, this program will calcul
 * The greatest decrease in profits (date and amount) over the entire period
 
 ## PyPoll
-<br>
+
 Given a cleaned csv of votes containing the voters id, county, and chosen candidate, this program will calculate:
 * The total number of votes cast
 * A complete list of candidates who received votes
