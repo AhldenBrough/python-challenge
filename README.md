@@ -1,8 +1,8 @@
 # python-challenge
 <br>
 
-## PyBank ##
-<br>
+## PyBank
+
 Given a cleaned csv of month to month profit/loss data, this program will calculate:
 <br>
 * The total number of months included in the dataset
@@ -11,7 +11,7 @@ Given a cleaned csv of month to month profit/loss data, this program will calcul
 * The greatest increase in profits (date and amount) over the entire period
 * The greatest decrease in profits (date and amount) over the entire period
 
-## PyPoll ##
+## PyPoll
 <br>
 Given a cleaned csv of votes containing the voters id, county, and chosen candidate, this program will calculate:
 * The total number of votes cast
