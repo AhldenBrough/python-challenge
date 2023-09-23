@@ -3,7 +3,6 @@
 ## PyBank
 
 Given a cleaned csv of month to month profit/loss data, this program will calculate:
-<br>
 * The total number of months included in the dataset
 * The net total amount of "Profit/Losses" over the entire period
 * The changes in "Profit/Losses" over the entire period, and then the average of those changes
